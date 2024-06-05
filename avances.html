@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="avances.css">
+    <title>Laboratorio</title>
+
+    <header>
+        <div class="izquierda">
+            <img src="https://www.licra.edu.gt/wp-content/uploads/2022/07/image.png" alt="" class="licra">
+            <p class="editor">Editores</p>
+            <div class="editor-nombres">
+                <p>Samuel Hernández</p>
+                <p>Caleb Monterroso</p>
+            </div>
+            <a class="inicio" href="index.html">Inicio</a>
+        </div>
+        <div class="derecha">
+            <a href="comentarios.html" class="comentarios"><img src="Recurso 3@2x.png" alt=""></a>
+        </div>
+    </header>
+    <div class="portada">
+        <img src="Recurso 25@2x.png" alt="">
+    </div>
+    <div class="footer">
+        <div class="link">
+            
+            <a href="avances.html">Avances</a>
+            <a href="articulos.html">Artículos de interés</a>
+            <a href="notas.html">Notas</a>
+            <a href="novedades.html">Novedades</a>
+            <a href="consejos.html">Consejos</a>
+        </div>
+    </div>
+
+    <div class="separacion">
+
+    </div>
+
+    <div class="datos1">
+        <h2>HAZ CLICK EN LOS ELEMENTOS PARA DESCUBRIR SU INFORMACIÓN</h2>
+        <div class="dato1">
+            <img src="Recurso 6@2x.png" alt="" class="click" onclick="toggleText()">
+            <p class="texto-oculto" id="oculto">Probablemente el desarrollo más trascendental de todos. La Inteligencia Artificial (IA) es la 
+                combinación de algoritmos planteados con el propósito de crear máquinas que presenten las mismas 
+                capacidades que el ser humano.</p>
+        </div>
+        <div class="dato2">
+            <p class="texto-oculto2" id="oculto">Gracias a esta maquina, el crear piezas tridimensionales se ha convertido en un proceso fácil, barato e inmediato. Basta con diseñarlo y crearlo. Atrás quedaron los procesos industriales complejos y costosos.</p>
+            <img src="Recurso 9@2x.png" alt="" class="click2" onclick="toggleText2()">
+            
+        </div>
+    </div>
+
+    <div class="datos2">
+        <div class="info1">
+            <p class="click3" onclick="toggleText3()">1981</p>
+            <div class="texto-oculto3" id="oculto3">
+                <h2>Realidad virtual</h2>
+                <p>Nueva tecnología que permite acceder a nuevos mundos a través de una inmersión prácticamente total. Con ella se puede recrear una sensación de realidad bastante intensa. Esto ha encontrado su aplicación en diversos ámbitos donde se requiere experimentar en nuevos escenarios de una manera segura y controlada.</p>
+            </div>
+        </div>
+
+        <div class="relleno">
+            <img src="Recurso 14@2x.png" alt="">
+        </div>
+
+        <div class="info2">
+            <div class="texto-oculto4" id="oculto">
+                <h2>Metaverso</h2>
+                <p>El metaverso es una realidad digital a la que accedemos a través de dispositivos especiales como gafas de realidad virtual o aumentada a través de las cuales podremos interactuar con otros usuarios. La idea de interactuar en espacios virtuales 3D con otros usuarios es cada vez más posible gracias al desarrollo del Metaverso.</p>
+            </div>
+            <p class="click4" onclick="toggleText4()">1992</p>
+        </div>
+
+        <div class="relleno2">
+            <img src="Recurso 16@2x.png" alt="">
+        </div>
+
+        <div class="info3">
+            <p class="click5" onclick="toggleText5()">1960</p>
+            <div class="texto-oculto5" id="oculto5">
+                <h2>La Nube</h2>
+                <p>La principal ventaja que ha traído un avance como la Nube es la posibilidad de acceder a archivos y a datos desde cualquier lugar y en cualquier momento. La Nube nos permite una accesibilidad inmediata a la información.</p>
+            </div>
+        </div>
+
+        <div class="relleno3">
+            <img src="Recurso 14@2x.png" alt="">
+        </div>
+    </div>
+
+
+    <div class="datos3">
+        <div class="bloc1">
+            <img src="5g-modern-technology-background.jpg" alt="" class="clickable-image" onclick="toggleTexto()">
+            <p class="text-oculto">La quinta generación de tecnología celular inalámbrica, que ofrece mayores velocidades de carga y descarga, conexiones más consistentes y una capacidad mejorada que las redes anteriores. El 5G es mucho más rápido y fiable que las redes 4G actualmente populares y tiene el potencial de transformar la forma en que utilizamos Internet para acceder a las aplicaciones, redes sociales e información.</p>
+        </div>
+        <div class="bloc2">
+            <img src="Recurso 7@2x.png" alt="" class="clickable-image2" onclick="toggleTexto2()">
+            <p class="text-oculto2">Tipo de tecnología que te permite crear un objeto tridimensional a partir de un diseño digital. Los alcances de las impresoras 3D en la industria, la medicina, e incluso en la vida diaria, son tan grandes que algunos expertos se han atrevido a afirmar que el uso de esta tecnología puede revolucionar la industria y la economía porque puede reducir los costos de mano de obra y afectar las fuentes de trabajo de países dedicados a producir cosas a bajo precio. </p>
+        </div>
+    </div>
+
+    <div class="encuesta">
+        <img src="Recurso 22@2x.png" alt="" id="myBtn">
+
+        <div id="myModal" class="modal">
+
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Cuestionario</h2>
+              </div>
+              <div class="modal-body">
+                <p>1. ¿Está sección te parecio interesante?</p>
+                <label><input type="radio">Mucho</label>
+                <label><input type="radio">Esta bien</label>
+                <label><input type="radio">Poco</label>
+                <label><input type="radio">No me gusto</label>
+                <br>
+                <p>2. ¿Desearias mas secciones como esta?</p>
+                <label><input type="radio">Por supuesto</label>
+                <label><input type="radio">Talvez</label>
+                <label><input type="radio">Para nada</label>
+                <br>
+                <p>3. ¿Aprendiste algo nuevo con esta información?</p>
+                <label><input type="radio">Aprendi bastante</label>
+                <label><input type="radio">No estoy seguro</label>
+                <label><input type="radio">Ya conocía los temas</label>
+                <br>
+              </div>
+              <div class="modal-footer">
+                <button class="close">Enviar respuestas</button>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="separacion2">
+
+    </div>
+
+    <div class="ultima"></div>
+
+    <div class="pie_pagina">
+        <div class="pg_text">
+            <div class="pg-box">
+                <h4>CONTACTANOS</h4>
+                <ul>
+                    <li>44702345</li>
+                    <li>12547894</li>
+                </ul>
+            </div>
+            <div class="pg-box2">
+                <h4>NUESTRO CORREO</h4>
+                <ul>
+                    <li>ClubRobotixs_@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="pg_img">
+            <img src="Lo del final.png" alt="">
+        </div>
+        <div class="final">
+
+        </div>
+    </div>
+
+
+    <script src="portada.js"></script>
+    <script src="avances.js"></script>
+</head>
+<body>
+    
+</body>
+</html>
