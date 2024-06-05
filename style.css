@@ -74,7 +74,7 @@ header .derecha .comentarios img{
     height: 75%;
 }
 .portada{
-    max-width: 100%;
+    width: 100%;
     background-color: antiquewhite;
     height: 550px;
 }
